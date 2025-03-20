@@ -3,7 +3,7 @@ tasks = []
 def add_task(task): 
     tasks.append(task) 
     print(f"Task added sucessfully : {task}")
-
+print("hello ya basha")
 def view_tasks(): 
     if not tasks: 
         print("Your to-do list is empty really.") 
