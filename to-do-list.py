@@ -2,11 +2,11 @@
 tasks = [] 
 def add_task(task): 
     tasks.append(task) 
-    print(f"Task added: {task}")
+    print(f"Task added sucessfully : {task}")
 
 def view_tasks(): 
     if not tasks: 
-        print("Your to-do list is empty.") 
+        print("Your to-do list is empty really.") 
     else: 
         print("Your tasks:") 
     for i, task in enumerate(tasks, start=1): 
